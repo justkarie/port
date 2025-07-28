@@ -1,0 +1,193 @@
+
+
+* {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  background-color: #9e72a5;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 77px;
+  z-index: 1000;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.nav-links a {
+  color: white;
+  font-size: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+
+.nav-links a:hover {
+  background-color: #cab2dd;
+  padding: 14px 20px; 
+  font-weight: bold;
+}
+
+.home {
+   background-color: #edddff;
+   height: 100vh;
+   width: 100vw;
+   padding-top: 120px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.acd {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.abouts {
+  flex: 1;
+  padding: 20px;
+  max-width: 50%;
+}
+
+.contacts, .donate {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.contacts {
+  margin-bottom: 60px;
+}
+
+.acd h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.acd p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.right {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 3px solid black;
+}
+
+.donate-button {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 12px 24px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.donate-button:hover {
+  background-color: #f0f0f0;
+}
+
+.portfolio {
+  background-color: #edddff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.homeicon {
+  padding-top : 5px;
+}
+
+.portfolio-image {
+  padding-top: 40px;
+  padding-left: 40px;
+
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.card1, .card2, .card3 {
+  background-color: white;
+  border-radius: 20px;
+  width: 300px;
+  height: 450px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  border-color: #edddff;
+  border-width: 2px;
+  border-style: dotted;
+}
+
+.cards h3 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: comic sans ms, cursive;
+  color: #9d9d9d;
+  
+}
+
+.cards p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #b4b4b4;
+  font-family: comic sans ms, cursive;
+}
+
+.codestruction {
+  background-color: #edddff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  color: #ffffff;
+  font-family: comic sans ms, cursive;
+}
+
